@@ -1,0 +1,73 @@
+{
+  "repo": "thread-model-drift-loom",
+  "language": "Haskell",
+  "category": "ML utilities",
+  "goal": "Create a Haskell reference implementation for drift workflows, centered on protocol validation, framed sample traffic, and bounds and ordering tests.",
+  "review_model": {
+    "terms": [
+      "feature drift",
+      "window width",
+      "metric stability",
+      "explainability"
+    ],
+    "lanes": [
+      "ship",
+      "watch",
+      "hold"
+    ],
+    "score": "signal * 2 + slack + confidence - drag * 3",
+    "purpose": "surface the domain-specific cases that need the most careful review"
+  },
+  "cases": [
+    {
+      "name": "baseline",
+      "focus": "feature drift",
+      "signal": 78,
+      "slack": 24,
+      "drag": 14,
+      "confidence": 69,
+      "score": 207,
+      "lane": "ship"
+    },
+    {
+      "name": "stress",
+      "focus": "window width",
+      "signal": 58,
+      "slack": 42,
+      "drag": 31,
+      "confidence": 63,
+      "score": 128,
+      "lane": "watch"
+    },
+    {
+      "name": "edge",
+      "focus": "metric stability",
+      "signal": 63,
+      "slack": 41,
+      "drag": 25,
+      "confidence": 87,
+      "score": 179,
+      "lane": "ship"
+    },
+    {
+      "name": "recovery",
+      "focus": "explainability",
+      "signal": 51,
+      "slack": 49,
+      "drag": 32,
+      "confidence": 93,
+      "score": 148,
+      "lane": "ship"
+    },
+    {
+      "name": "stale",
+      "focus": "feature drift",
+      "signal": 88,
+      "slack": 39,
+      "drag": 25,
+      "confidence": 94,
+      "score": 234,
+      "lane": "ship"
+    }
+  ]
+}
