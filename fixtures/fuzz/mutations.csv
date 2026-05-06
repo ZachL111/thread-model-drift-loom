@@ -1,0 +1,97 @@
+id,parent,focus,signal,slack,drag,confidence,score,lane,kind,invariant,mutation
+m001,g001,feature drift,110,20,39,70,464,ship,baseline,monotonic-signal,raise-signal
+m002,g002,window width,72,8,45,54,232,ship,edge,drag-penalty,drop-slack
+m003,g003,metric stability,61,21,15,45,316,ship,recovery,confidence-floor,raise-drag
+m004,g004,explainability,59,24,33,37,226,ship,negative,lane-boundary,lower-confidence
+m005,g005,feature drift,115,28,5,57,610,ship,baseline,monotonic-signal,raise-signal
+m006,g006,window width,45,22,34,65,218,ship,edge,drag-penalty,drop-slack
+m007,g007,metric stability,62,73,15,74,482,ship,recovery,confidence-floor,raise-drag
+m008,g008,explainability,74,25,18,70,414,ship,negative,lane-boundary,lower-confidence
+m009,g009,feature drift,48,74,45,92,344,ship,baseline,monotonic-signal,raise-signal
+m010,g010,window width,113,20,39,58,452,ship,edge,drag-penalty,drop-slack
+m011,g011,metric stability,110,47,45,45,444,ship,recovery,confidence-floor,raise-drag
+m012,g012,explainability,68,22,18,30,304,ship,negative,lane-boundary,lower-confidence
+m013,g013,feature drift,59,12,39,90,284,ship,baseline,monotonic-signal,raise-signal
+m014,g014,window width,45,0,42,32,76,hold,edge,drag-penalty,drop-slack
+m015,g015,metric stability,46,11,52,50,98,hold,recovery,confidence-floor,raise-drag
+m016,g016,explainability,50,49,27,8,206,ship,negative,lane-boundary,lower-confidence
+m017,g017,feature drift,108,36,20,54,532,ship,baseline,monotonic-signal,raise-signal
+m018,g018,window width,83,21,39,32,282,ship,edge,drag-penalty,drop-slack
+m019,g019,metric stability,79,67,15,25,440,ship,recovery,confidence-floor,raise-drag
+m020,g020,explainability,36,17,36,56,146,watch,negative,lane-boundary,lower-confidence
+m021,g021,feature drift,71,30,9,53,414,ship,baseline,monotonic-signal,raise-signal
+m022,g022,window width,79,28,39,44,304,ship,edge,drag-penalty,drop-slack
+m023,g023,metric stability,91,46,21,49,470,ship,recovery,confidence-floor,raise-drag
+m024,g024,explainability,56,52,24,43,318,ship,negative,lane-boundary,lower-confidence
+m025,g025,feature drift,95,29,30,64,446,ship,baseline,monotonic-signal,raise-signal
+m026,g026,window width,61,37,35,73,324,ship,edge,drag-penalty,drop-slack
+m027,g027,metric stability,96,25,25,82,498,ship,recovery,confidence-floor,raise-drag
+m028,g028,explainability,73,51,32,78,422,ship,negative,lane-boundary,lower-confidence
+m029,g029,feature drift,118,32,19,57,574,ship,baseline,monotonic-signal,raise-signal
+m030,g030,window width,86,14,35,44,320,ship,edge,drag-penalty,drop-slack
+m031,g031,metric stability,78,24,52,42,236,ship,recovery,confidence-floor,raise-drag
+m032,g032,explainability,54,26,30,76,300,ship,negative,lane-boundary,lower-confidence
+m033,g033,feature drift,122,29,24,31,512,ship,baseline,monotonic-signal,raise-signal
+m034,g034,window width,102,22,23,49,458,ship,edge,drag-penalty,drop-slack
+m035,g035,metric stability,100,38,52,20,308,ship,recovery,confidence-floor,raise-drag
+m036,g036,explainability,59,8,24,40,236,ship,negative,lane-boundary,lower-confidence
+m037,g037,feature drift,95,30,27,31,394,ship,baseline,monotonic-signal,raise-signal
+m038,g038,window width,103,0,30,24,340,ship,edge,drag-penalty,drop-slack
+m039,g039,metric stability,115,36,19,68,592,ship,recovery,confidence-floor,raise-drag
+m040,g040,explainability,80,52,5,39,482,ship,negative,lane-boundary,lower-confidence
+m041,g041,feature drift,75,27,24,43,344,ship,baseline,monotonic-signal,raise-signal
+m042,g042,window width,63,6,35,48,220,ship,edge,drag-penalty,drop-slack
+m043,g043,metric stability,109,15,28,55,464,ship,recovery,confidence-floor,raise-drag
+m044,g044,explainability,91,16,36,50,352,ship,negative,lane-boundary,lower-confidence
+m045,g045,feature drift,95,54,24,72,536,ship,baseline,monotonic-signal,raise-signal
+m046,g046,window width,87,30,41,81,406,ship,edge,drag-penalty,drop-slack
+m047,g047,metric stability,91,37,16,90,554,ship,recovery,confidence-floor,raise-drag
+m048,g048,explainability,52,72,15,43,378,ship,negative,lane-boundary,lower-confidence
+m049,g049,feature drift,45,22,20,43,230,ship,baseline,monotonic-signal,raise-signal
+m050,g050,window width,32,24,45,41,78,hold,edge,drag-penalty,drop-slack
+m051,g051,metric stability,77,44,24,88,476,ship,recovery,confidence-floor,raise-drag
+m052,g052,explainability,103,51,4,17,532,ship,negative,lane-boundary,lower-confidence
+m053,g053,feature drift,41,57,20,48,294,ship,baseline,monotonic-signal,raise-signal
+m054,g054,window width,44,23,30,105,312,ship,edge,drag-penalty,drop-slack
+m055,g055,metric stability,97,53,22,52,510,ship,recovery,confidence-floor,raise-drag
+m056,g056,explainability,39,30,9,17,214,ship,negative,lane-boundary,lower-confidence
+m057,g057,feature drift,111,56,8,23,570,ship,baseline,monotonic-signal,raise-signal
+m058,g058,window width,49,26,30,67,262,ship,edge,drag-penalty,drop-slack
+m059,g059,metric stability,114,30,16,51,554,ship,recovery,confidence-floor,raise-drag
+m060,g060,explainability,62,29,12,29,316,ship,negative,lane-boundary,lower-confidence
+m061,g061,feature drift,48,31,15,47,288,ship,baseline,monotonic-signal,raise-signal
+m062,g062,window width,31,23,39,54,122,watch,edge,drag-penalty,drop-slack
+m063,g063,metric stability,95,38,39,62,424,ship,recovery,confidence-floor,raise-drag
+m064,g064,explainability,66,43,9,58,430,ship,negative,lane-boundary,lower-confidence
+m065,g065,feature drift,64,13,20,80,362,ship,baseline,monotonic-signal,raise-signal
+m066,g066,window width,53,24,6,89,414,ship,edge,drag-penalty,drop-slack
+m067,g067,metric stability,100,14,28,55,426,ship,recovery,confidence-floor,raise-drag
+m068,g068,explainability,39,41,9,29,260,ship,negative,lane-boundary,lower-confidence
+m069,g069,feature drift,65,57,26,40,350,ship,baseline,monotonic-signal,raise-signal
+m070,g070,window width,68,21,36,87,344,ship,edge,drag-penalty,drop-slack
+m071,g071,metric stability,33,22,49,29,38,hold,recovery,confidence-floor,raise-drag
+m072,g072,explainability,107,20,5,34,516,ship,negative,lane-boundary,lower-confidence
+m073,g073,feature drift,113,21,30,104,582,ship,baseline,monotonic-signal,raise-signal
+m074,g074,window width,62,48,44,51,270,ship,edge,drag-penalty,drop-slack
+m075,g075,metric stability,44,46,38,29,174,ship,recovery,confidence-floor,raise-drag
+m076,g076,explainability,39,42,5,9,238,ship,negative,lane-boundary,lower-confidence
+m077,g077,feature drift,49,77,15,66,422,ship,baseline,monotonic-signal,raise-signal
+m078,g078,window width,44,16,42,50,140,watch,edge,drag-penalty,drop-slack
+m079,g079,metric stability,93,40,43,41,362,ship,recovery,confidence-floor,raise-drag
+m080,g080,explainability,77,49,35,33,332,ship,negative,lane-boundary,lower-confidence
+m081,g081,feature drift,82,56,15,53,486,ship,baseline,monotonic-signal,raise-signal
+m082,g082,window width,30,51,36,61,200,ship,edge,drag-penalty,drop-slack
+m083,g083,metric stability,56,39,46,70,258,ship,recovery,confidence-floor,raise-drag
+m084,g084,explainability,73,58,42,66,372,ship,negative,lane-boundary,lower-confidence
+m085,g085,feature drift,94,35,24,88,526,ship,baseline,monotonic-signal,raise-signal
+m086,g086,window width,50,50,17,54,340,ship,edge,drag-penalty,drop-slack
+m087,g087,metric stability,80,42,43,41,314,ship,recovery,confidence-floor,raise-drag
+m088,g088,explainability,55,35,5,26,322,ship,negative,lane-boundary,lower-confidence
+m089,g089,feature drift,99,34,33,86,504,ship,baseline,monotonic-signal,raise-signal
+m090,g090,window width,67,25,6,28,350,ship,edge,drag-penalty,drop-slack
+m091,g091,metric stability,103,39,43,46,410,ship,recovery,confidence-floor,raise-drag
+m092,g092,explainability,80,43,11,90,542,ship,negative,lane-boundary,lower-confidence
+m093,g093,feature drift,81,48,21,50,436,ship,baseline,monotonic-signal,raise-signal
+m094,g094,window width,48,7,27,28,154,ship,edge,drag-penalty,drop-slack
+m095,g095,metric stability,107,40,39,21,394,ship,recovery,confidence-floor,raise-drag
+m096,g096,explainability,96,19,15,52,466,ship,negative,lane-boundary,lower-confidence
